@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Example module.
+ * WikiTree module.
  */
 
 declare(strict_types=1);
 
-namespace ExampleNamespace;
+namespace WikiTreeNamespace;
 
-require __DIR__ . '/ExampleModuleCustomTags.php';
+require __DIR__ . '/ModuleCustomTagWikiTree.php';
 
 // This script must return an object that implements ModuleCustomInterface.
 // If the module's constructor does not take any parameters, you can simply instantiate it.
@@ -17,4 +17,4 @@ require __DIR__ . '/ExampleModuleCustomTags.php';
 // return Webtrees::make(ExampleModule::class);
 // For an example, see the server-config module.
 
-return new ExampleModuleCustomTags();
+return new ModuleCustomTagWikiTree();
