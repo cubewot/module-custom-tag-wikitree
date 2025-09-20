@@ -80,7 +80,7 @@ class ModuleCustomTagsckc extends AbstractModule implements ModuleCustomInterfac
      */
     public function customModuleLatestVersionUrl(): string
     {
-        return 'https://github.com/webtrees/example-module-custom-tags/raw/main/latest-version.txt';
+        return 'https://github.com/cubewot/module-custom-tag-wikitree/raw/main/latest-version.txt';
     }
 
     /**
@@ -90,7 +90,7 @@ class ModuleCustomTagsckc extends AbstractModule implements ModuleCustomInterfac
      */
     public function customModuleSupportUrl(): string
     {
-        return 'https://github.com/webtrees/example-module-custom-tags';
+        return 'https://github.com/cubewot/module-custom-tag-wikitree';
     }
 
     /**
