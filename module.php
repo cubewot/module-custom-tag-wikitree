@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace ExampleNamespace;
+namespace ckcWikiTree;
 
 require __DIR__ . '/ModuleCustomTagsckc.php';
 
